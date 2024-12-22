@@ -4557,10 +4557,10 @@
     mime "^3.0.0"
     web-vitals "^4.2.1"
 
-"@wordpress/element@^6.12.0":
-  version "6.12.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/element/-/element-6.12.0.tgz#8691986f62f00aeb3a61e699df4d9f7f06087f0a"
-  integrity sha512-iMRk4AcpYo5KCvpTx2YQn5rGFz/nQ5EjL19X7mPFs3J8ZLGM0CDWP7ieQZjlMynRUXZjrrdSvp3ggQN8xDkZrA==
+"@wordpress/element@^6.13.0":
+  version "6.14.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/element/-/element-6.14.0.tgz#d29a837d7a01c62d206bb2ae44c27a4f199736c1"
+  integrity sha512-vZPm2ekv9B7fMcv/slyu/p8lV44EPa6RRHOk04ldNUpsrjC6ph6Q4wpuI5WzLEX7p1u71c8ZOuroEuRvdFxMcA==
   dependencies:
     "@babel/runtime" "7.25.7"
     "@types/react" "^18.2.79"
