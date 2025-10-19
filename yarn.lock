@@ -3633,6 +3633,11 @@
   resolved "https://registry.yarnpkg.com/@tannin/postfix/-/postfix-1.1.0.tgz#6071f4204ae26c2e885cf3a3f1203a9f71e3f291"
   integrity sha512-oocsqY7g0cR+Gur5jRQLSrX2OtpMLMse1I10JQBm8CdGMrDkh1Mg2gjsiquMHRtBs4Qwu5wgEp5GgIYHk4SNPw==
 
+"@tannin/sprintf@^1.3.2":
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/@tannin/sprintf/-/sprintf-1.3.3.tgz#4ed4ee84c543bd1bb8687c38c2e6d7ca712d1f55"
+  integrity sha512-RwARl+hFwhzy0tg9atWcchLFvoQiOh4rrP7uG2N5E4W80BPCUX0ElcUR9St43fxB9EfjsW2df9Qp+UsTbvQDjA==
+
 "@tootallnate/once@2":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-2.0.0.tgz#f544a148d3ab35801c1f633a7441fd87c2e484bf"
@@ -4601,23 +4606,20 @@
     globals "^13.12.0"
     requireindex "^1.2.0"
 
-"@wordpress/hooks@*":
-  version "4.12.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/hooks/-/hooks-4.12.0.tgz#38cc3eec88ad010fbea0723eae476481fcdfe487"
-  integrity sha512-pgeAbr9552AGRn7y4BJM95XUFKl1Cs0t980fgSwvFCbob+2Q+xYPvhtpfSGdHPBWdbQ75TcTBaeVUXbY2kwF8Q==
-  dependencies:
-    "@babel/runtime" "7.25.7"
+"@wordpress/hooks@^4.33.0":
+  version "4.33.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/hooks/-/hooks-4.33.0.tgz#450bb3eab6d185fc95f94a4a809f9631d2766fda"
+  integrity sha512-UwYLO+d3B2a9YtyiKTKjpE+j+eXI1pgySUutD8DL9DnHZMKX/TY4pBdSH4tyNMYxA2Jx0HBDhxBWVkE6e2KB6A==
 
-"@wordpress/i18n@^5.12.0":
-  version "5.12.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/i18n/-/i18n-5.12.0.tgz#c4d9bfcccae82800fab0c4398ada6ba2f3ef25a3"
-  integrity sha512-+fAhdRqbTmzTUe46VVMfpFbDJCV1/prB7TccPvUCYf84kM5yLkMa2oqkEwniD7gB97HK1tH9bVD+jJDZL22l9A==
+"@wordpress/i18n@^6.6.0":
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/i18n/-/i18n-6.6.0.tgz#7f60a125b1ab300fad3ebebe776dba9266a9ae61"
+  integrity sha512-tPbvLiOl09M2NBt+pKA2bRUH5GEAzSPHt6cNEF1vbDPSIrtcv/B76x3uRE/hEb6gz67HW594fyAwV7ES/4hZhA==
   dependencies:
-    "@babel/runtime" "7.25.7"
-    "@wordpress/hooks" "*"
+    "@tannin/sprintf" "^1.3.2"
+    "@wordpress/hooks" "^4.33.0"
     gettext-parser "^1.3.1"
     memize "^2.1.0"
-    sprintf-js "^1.1.1"
     tannin "^1.2.0"
 
 "@wordpress/jest-console@*":
@@ -15121,11 +15123,6 @@ speedline-core@^1.4.3:
     "@types/node" "*"
     image-ssim "^0.2.0"
     jpeg-js "^0.4.1"
-
-sprintf-js@^1.1.1:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.1.2.tgz#da1765262bf8c0f571749f2ad6c26300207ae673"
-  integrity sha512-VE0SOVEHCk7Qc8ulkWw3ntAzXuqf7S2lvwQaDLRnUeIEaKNQJzV6BwmLKhOqT61aGhfUMrXeaBk+oDGCzvhcug==
 
 sprintf-js@^1.1.3:
   version "1.1.3"
